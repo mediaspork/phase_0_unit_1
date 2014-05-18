@@ -28,5 +28,7 @@ I could not figure out how to link my CSS file which was in the stylesheet folde
 * Did you find any resources on your own that helped you better understand a topic? If so, please list it.
 
 http://www.htmlgoodies.com/primers/html/article.php/3478191
+
 http://www.w3schools.com/
+
 http://www.codecademy.com/courses/web-beginner-en-9x6JW-WnAFv/
