@@ -1,19 +1,142 @@
 <!-- 
 Write your names here:
-1. 
-2. 
+1. Duke Greene
+2. Max Lock
 -->
 
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link href='http://fonts.googleapis.com/css?family=Istok+Web' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="p0_gps1.1.css">
-    <title>Title Here</title>
+    <title>Duke and Max Pair Up</title>
     <style>
+        body {
+            font-family: 'Istok Web', sans-serif;
+        }
     
+        header h1 {
+            text-align: center;
+            color: #ff0033;
+            position:relative;
+            top: -16px;
+        }
+    
+        header {
+            position: fixed;
+            width: 100%;
+            top: 0px;
+            z-axis: 1;
+            float: center;
+            text-align: center;
+        }
+        
+        #background img {
+            position: fixed;
+            width: 100%;
+            height: 125px;
+            top: 0px;
+            z-axis: -1;
+            opacity: .5;
+        }
+        
+        article {
+            position: relative;
+            top: 150px;
+            width: 70%;
+        }
+        
+        article h1 {
+            float: left;
+        }
+        
+        article h4 {
+            float: right;
+        }
+        
+        article p {
+            position: relative;
+            clear: left;
+        }
+        
+        article ul {
+            position: relative;
+            clear: left;
+        }
+    
+        #sidebar {
+            width: 25%;
+            position: relative;
+            top: 100px;
+            float: right;
+        }
+        
+        #bottom {
+            display: flex
+            flex-direction: column;
+            min-height: 100%;
+        }
+        
+        footer {
+            flex: 1;
+            position: absolute;
+            bottom: 0px;
+            width: 100%;
+            display: inline;
+            left: 0;
+        }
+        
+        footer p {
+            width: 50%;
+            bottom: 0px;
+        }
+        
+        footer a {
+            width: 50%;
+            position: relative;
+            display: inline-block;
+        }
+        
+        #sidebar h3 {
+            text-align: center;
+        }
     </style>
   </head>
   <body>
- 
+    <header>
+        <h1>Duke and Max Pair Up</h1>
+        <a href="">Home</a>
+        <a href="">News</a>
+        <a href="">About</a>
+    </header>
+    <div id="background">
+        <img src="http://i.imgur.com/ed9ff.jpg" />
+    </div>
+    <div id="sidebar">
+        <h3>Sidebar</h3>
+        <h4>Twitter</h4>
+        <a class="twitter-timeline" href="https://twitter.com/prezmax" data-widget-id="470590046446166016">Tweets by @prezmax</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    </div>
+    <div>
+        <article>
+            <h1 id="headline">Pairing Thoughts</h1>
+            <h4 id="date">May 22, 2014</h4>
+            <p>Our thoughts on pairing from our guided pairing session:</p>
+            <ul>
+                <li>Driver Responsibilities: Communication, working through the technical aspects, technical mastery, hands on the keyboard, understanding the navigators vision, applying the pairs ideas</li>
+                <li>Driver Notes: Be clear when speaking up, be open, listen for the navigator, don't worry as much on the big picture, instead focus on the next thing, always be typing, be prepared</li>
+                <li>Navigator Responsibilities: Verbally express the project, hold onto the picture in their head, create a path/plan, monitor the driver, make corrections if necessary</li>
+                <li>Navigator Notes: Keep an eye on the driver's code, think outloud, let the thoughts stream, be honest throughout the process both with yourself and the driver, let the driver know of anything you are looking up</li>
+            </ul>
+        </article>
+    </div>
+    <div id="bottom">
+    <footer>
+        <p>Copyright Max and Duke 2014</p>
+        <a href="">About</a>
+        <a href="">Contact</a>
+    </footer>
+    </div>
   </body>
 </html>
